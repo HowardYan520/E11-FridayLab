@@ -36,7 +36,7 @@ start_time=time.time()
 current_time=start_time
 
 
-with open('GPIO_data.csv','w',newline='') as csvfile:
+with open('GPIO_data_thorium.csv','w',newline='') as csvfile:
 	testwriter=csv.writer(csvfile,delimiter=',')
 	while current_time < start_time + interval:
 		Time = datetime.datetime.now()
